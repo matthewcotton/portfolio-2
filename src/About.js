@@ -21,23 +21,39 @@ class MyNav extends React.Component {
         <Row>
           <Col>
             <p className="text-justify">
-              The majority of my experience is as an electrical engineer but for
-              some time now I have been re-focusing my career towards a
-              software-based role. This year I have been actively developing my
-              computer science knowledge and software developer skills. I am
-              about to complete the HarvardX “CS50 Introduction to Computer
-              Science” course and have been improving my JavaScript, C/C++, SQL,
-              Flask, Jinja, HTML and CSS skills. This includes building some
-              personal web development projects.
+              Throughout 2020 I have been actively developing my computer
+              science knowledge and web development skills. I am completing The
+              Developer Academy’s Software Developer Bootcamp and have completed
+              HarvardX “CS50 Introduction to Computer Science” course. This has
+              given me some great experience using Javascript, React, Redux,
+              C/C++, SQL, Flask, Jinja, HTML and CSS. Some of my portfolio
+              projects demonstrate what I have done over this time.
             </p>
             <p className="text-justify">
-              8 years in automotive. Worked for Jaguar Land Rover and General
-              Motors. Add details about projects.
+              Prior to December 2020 I have worked in several electrical
+              engineering roles in the automotive industry. This includes:
             </p>
+            <ul>
+              <li>
+                Being a scum master for a team developing delivery related
+                products,
+              </li>
+              <li>
+                Designing the electrical architecture for a range of eBikes,
+              </li>
+              <li>Developing a trailer stability control algorithm,</li>
+              <li>
+                Delivering production electric power steering components for
+                Land Rover and Jaguar products,
+              </li>
+              <li>And advanced development of self-driving features.</li>
+            </ul>
             <p className="text-justify">
-              Outside of work I am a keen parkrunner. Also enjoy a good pint of
-              real ale and I am a memeber of CAMRA. And a fan of the now much
-              more famous Wrexham AFC.
+              Outside of work I am a keen parkrunner. The cancellation of which
+              during the pandemic has been a huge loss to me and many others.
+              Additionally, I enjoy a good pint of real ale and I am a member of
+              CAMRA. Specifically, I have a strong interest in historic pubs.
+              When I get the chance I enjoy watching Wrexham AFC.
             </p>
           </Col>
         </Row>

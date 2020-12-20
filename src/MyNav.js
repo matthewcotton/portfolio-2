@@ -11,7 +11,7 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup';
 class MyNav extends React.Component {
   render() {
     return (
-      <Navbar bg="dark" variant="dark" expand="md">
+      <Navbar bg="dark" variant="dark" expand="md" fixed="top">
         <Link to="/">
           <Navbar.Brand>Matt Cotton</Navbar.Brand>
         </Link>
