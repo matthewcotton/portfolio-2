@@ -14,12 +14,12 @@ class MyNav extends React.Component {
         </Helmet>
         <Row className="nav-offset"></Row>
         <Row className="justify-content-center">
-          <Col className='text-center'>
+          <Col className="text-center">
             <h1>About Me</h1>
             <hr className="brd-white" />
           </Col>
         </Row>
-        
+
         <Row>
           <Col>
             <p className="text-justify">
@@ -37,8 +37,8 @@ class MyNav extends React.Component {
             </p>
             <ul>
               <li>
-                Being a scum master for a team developing delivery related
-                products,
+                Being a scum master for a team developing consumer delivery
+                related products,
               </li>
               <li>
                 Designing the electrical architecture for a range of eBikes,

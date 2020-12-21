@@ -35,7 +35,7 @@ class Home extends React.Component {
               <Col className="lrg-font" md={6} xs={12}>
                 <p>I am a web developer living in Sheffield, UK.</p>
                 <p>
-                  My background including 8 years as an electrical engineer in
+                  My background includes 8 years as an electrical engineer in
                   the automotive industry at both Jaguar Land Rover and General
                   Motors (Canada) and a MEng in Aerospace engineering from The
                   University of Sheffield.
