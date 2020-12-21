@@ -79,6 +79,7 @@ class Projects extends React.Component {
         <Helmet>
           <title>Projects</title>
         </Helmet>
+        <Row className="nav-offset"></Row>
         <Row className="justify-content-center">
           <Col className="text-center">
             <h1>Projects</h1>

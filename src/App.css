@@ -30,3 +30,7 @@
   border-bottom: solid white 1px;
   padding-bottom: 4px;
 }
+
+.nav-offset {
+  padding-bottom: 56px;
+}

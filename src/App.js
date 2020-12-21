@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Nav from "./MyNav";
 import Footer from './MyFooter';
@@ -7,7 +7,6 @@ import Home from './Home';
 import About from './About';
 import Projects from './Projects';
 import Body from 'react-bootstrap/ModalBody'
-import Helmet from 'react-helmet';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 

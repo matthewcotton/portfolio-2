@@ -1,5 +1,4 @@
 import React from "react";
-import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Image from "react-bootstrap/Image";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";

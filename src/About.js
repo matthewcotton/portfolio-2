@@ -12,12 +12,14 @@ class MyNav extends React.Component {
         <Helmet>
           <title>Matt Cotton - About</title>
         </Helmet>
+        <Row className="nav-offset"></Row>
         <Row className="justify-content-center">
-          <Col>
+          <Col className='text-center'>
             <h1>About Me</h1>
+            <hr className="brd-white" />
           </Col>
         </Row>
-        <hr className="brd-white" />
+        
         <Row>
           <Col>
             <p className="text-justify">
