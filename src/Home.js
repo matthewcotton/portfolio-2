@@ -17,7 +17,7 @@ class Home extends React.Component {
           <title>Matt Cotton - Intro</title>
         </Helmet>
         <Body>
-          <Jumbotron fluid className="bg-dark">
+          <Jumbotron fluid className="no-btm bg-dark">
             <Row>
               <Col className="text-center">
                 <h1>Hi, my name is Matt Cotton.</h1>
