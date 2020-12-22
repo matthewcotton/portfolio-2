@@ -3,12 +3,12 @@ import Helmet from "react-helmet";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Project from "./Project";
-import FaceBuck from "./resources/facebuck-screenshot.PNG";
-import PubAdventure from "./resources/text-adventure-screenshot.PNG";
-import WhitchurchQuiz from "./resources/whitchurch-quiz-screenshot.PNG";
-import Calculator from "./resources/calculator-screenshot.PNG";
-import Cats from "./resources/foster-cats-screenshot.PNG";
-import Cipher from "./resources/cipher-screenshot.PNG";
+import FaceBuck from "./resources/facebuck-screenshot.jpg";
+import PubAdventure from "./resources/text-adventure-screenshot.jpg";
+import WhitchurchQuiz from "./resources/whitchurch-quiz-screenshot.jpg";
+import Calculator from "./resources/calculator-screenshot.jpg";
+import Cats from "./resources/foster-cats-screenshot.jpg";
+import Cipher from "./resources/cipher-screenshot.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
@@ -19,21 +19,21 @@ class Projects extends React.Component {
       projects: [
         {
           title: "FaceBuck",
-          link: "https://matthewcotton.github.io/social-site/#/",
+          link: "https://facebuck.matthewcotton.dev/#/",
           img: FaceBuck,
           imgAlt: "FaceBuck screenshot",
           description: "A React based social media site.",
         },
         {
           title: "React Calculator",
-          link: "https://matthewcotton.github.io/react-calculator/",
+          link: "https://calc.matthewcotton.dev/",
           img: Calculator,
           imgAlt: "React calculator screenshot",
           description: "A calculator built using React.",
         },
         {
           title: "Any Excuse for a Pub Adventure",
-          link: "https://matthewcotton.github.io/oop-text-adventure/",
+          link: "https://pub.matthewcotton.dev/",
           img: PubAdventure,
           imgAlt: "Any excuse for a pub adventure screenshot",
           description:
@@ -41,7 +41,7 @@ class Projects extends React.Component {
         },
         {
           title: "Whitchurch Quiz",
-          link: "https://matthewcotton.github.io/js-quiz/",
+          link: "https://quiz.matthewcotton.dev/",
           img: WhitchurchQuiz,
           imgAlt: "Whitchurch quiz screenshot",
           description:
@@ -49,7 +49,7 @@ class Projects extends React.Component {
         },
         {
           title: "Jenny & Matt's Foster Cats",
-          link: "https://matthewcotton.github.io/hobby-site/index.html",
+          link: "https://cats.matthewcotton.dev/index.html",
           img: Cats,
           imgAlt: "Jenny & Matt's foster cats' screenshot",
           description:
@@ -57,7 +57,7 @@ class Projects extends React.Component {
         },
         {
           title: "Caesar Cipher",
-          link: "https://matthewcotton.github.io/ceaser-cipher/",
+          link: "https://cipher.matthewcotton.dev/",
           img: Cipher,
           imgAlt: "Caesar cipher screenshot",
           description:
@@ -77,7 +77,7 @@ class Projects extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Projects</title>
+          <title>Matt Cotton - Projects</title>
         </Helmet>
         <Row className="nav-offset"></Row>
         <Row className="justify-content-center">

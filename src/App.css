@@ -34,3 +34,8 @@
 .nav-offset {
   padding-bottom: 56px;
 }
+
+.no-btm {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
