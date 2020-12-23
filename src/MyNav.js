@@ -8,7 +8,7 @@ import "./App.css";
 class MyNav extends React.Component {
   render() {
     return (
-      <Navbar bg="dark" variant="dark" expand="md" fixed="top">
+      <Navbar className='nav-bar' bg="dark" variant="dark" expand="md" sticky="top">
         <Link to="/">
           <Navbar.Brand>Matt Cotton</Navbar.Brand>
         </Link>

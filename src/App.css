@@ -1,41 +1,57 @@
+/* Background Color */
 .bg-dark {
   background-color: #343a40;
 }
 
-.txt-light {
-  color:white;
-}
-
-.lrg-font {
-  font-size: 1.2rem;
-}
-
-.full-width {
-  width: 100%;
-}
-
-.social-logo {
-  width: 50px;
-}
-
+/* Border Color */
 .brd-white {
   border-color: white;
 }
 
+/* Text */
+.txt-light {
+  color:white;
+}
+.sm-font {
+  font-size: 0.9rem;
+}
+.lrg-font {
+  font-size: 1.2rem;
+}
+
+/* Page Sizing */
+.full-width {
+  width: 100%;
+}
+.view-width {
+  max-width: 100vw;
+}
+
+/* Padding & Margin */
+.no-btm {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.sm-top {
+  padding-top: 10px;
+}
+
+/* Specific Element Styling */
+.social-logo {
+  width: 50px;
+}
 .foot-link {
   color: white;
 }
-
 .proj-title {
   border-bottom: solid white 1px;
   padding-bottom: 4px;
 }
-
-.nav-offset {
-  padding-bottom: 56px;
+/* Navbar Styling */
+.nav-bar {
+  padding-top: 0;
+  
 }
-
-.no-btm {
-  padding-bottom: 0;
-  margin-bottom: 0;
+.show, .collapsing {
+  border-bottom: solid white 1px;
 }

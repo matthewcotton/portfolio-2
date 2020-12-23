@@ -35,16 +35,17 @@ class MyNav extends React.Component {
                 alt="Twitter logo"
               />
             </a>
+            <br />
           </Col>
         </Row>
-        <br />
+        
         <Row className='justify-content-center'>
           <Col xs={11}>
             <hr className="brd-white" />
           </Col>
         </Row>
         <Row className="justify-content-center">
-          <p>
+          <p className='sm-font'>
             Icons made by{" "}
             <a
               className="foot-link"
@@ -64,7 +65,7 @@ class MyNav extends React.Component {
           </p>
         </Row>
         <Row className="justify-content-center">
-          <p>
+          <p className='sm-font'>
             Icons made by{" "}
             <a
               className="foot-link"
