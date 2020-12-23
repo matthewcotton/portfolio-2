@@ -13,10 +13,10 @@ import "./App.css";
 class App extends React.Component {
   render() {
     return (
-      <div>
-      <Router>
+      <div> 
+      <Router> 
+        <Body >
         <Nav />
-        <Body>
         <Container>
           <Switch>
             <Route exact path="/">
@@ -35,8 +35,8 @@ class App extends React.Component {
             </Route>
           </Switch>
         </Container>
-        </Body>
         <Footer />
+        </Body>
       </Router>
       </div>
     );
