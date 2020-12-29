@@ -10,7 +10,7 @@ class Project extends React.Component {
     return (
       <div>
       <Row>
-          <Col className="text-center" md={5} xs={12}>
+          <Col className="text-center" md={6} xs={12}>
             <h3 className="proj-title">{this.props.currentProject.title}</h3>
           </Col>
         </Row>

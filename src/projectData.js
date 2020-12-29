@@ -4,6 +4,7 @@ import WhitchurchQuiz from "./resources/whitchurch-quiz-screenshot.jpg";
 import Calculator from "./resources/calculator-screenshot.jpg";
 import Cats from "./resources/foster-cats-screenshot.jpg";
 import Cipher from "./resources/cipher-screenshot.jpg";
+import ToDontList from "./resources/todontlist-screenshot.JPG";
 
 const projects = [
     {
@@ -11,7 +12,7 @@ const projects = [
       link: "https://facebuck.matthewcotton.dev/#/",
       img: FaceBuck,
       imgAlt: "FaceBuck screenshot",
-      description: "A React based social media site.",
+      description: "A spoof social media site. Built using React.",
     },
     {
       title: "React Calculator",
@@ -19,6 +20,13 @@ const projects = [
       img: Calculator,
       imgAlt: "React calculator screenshot",
       description: "A calculator built using React.",
+    },
+    {
+      title: "Redux To Don't List",
+      link: "https://todontlist.matthewcotton.dev/",
+      img: ToDontList,
+      imgAlt: "Redux to don't list screenshot",
+      description: "A 'To Don't List' built using Redux including local storage of tasks.",
     },
     {
       title: "Any Excuse for a Pub Adventure",
