@@ -21,12 +21,12 @@ class Home extends React.Component {
           <Jumbotron fluid className="no-btm sm-top bg-dark">
             <Row>
               <Col className="text-center">
-                <h1>Hi, my name is Matt Cotton.</h1>
+                <h1 className="title">Hi, my name is Matt Cotton.</h1>
               </Col>
             </Row>
             <hr className="brd-white" />
             <Row className="justify-content-center">
-              <Col lg={4} md={5} xs={11}>
+              <Col lg={4} md={5} xs={12}>
                 <Image
                   className="full-width"
                   src={CoverPic}
