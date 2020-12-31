@@ -14,7 +14,7 @@ class MyNav extends React.Component {
         </Helmet>
         <Row className="justify-content-center">
           <Col className="text-center">
-            <h1>About Me</h1>
+            <h1 className="title" >About Me</h1>
             <hr className="brd-white" />
           </Col>
         </Row>

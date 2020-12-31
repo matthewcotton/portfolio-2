@@ -44,7 +44,7 @@ class MyNav extends React.Component {
             <hr className="brd-white" />
           </Col>
         </Row>
-        <Row className="justify-content-center">
+        <Row className="justify-content-center foot-txt">
           <p className='sm-font'>
             Icons made by{" "}
             <a
@@ -64,7 +64,7 @@ class MyNav extends React.Component {
             </a>
           </p>
         </Row>
-        <Row className="justify-content-center">
+        <Row className="justify-content-center foot-txt">
           <p className='sm-font'>
             Icons made by{" "}
             <a

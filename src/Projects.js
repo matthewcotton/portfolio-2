@@ -3,7 +3,7 @@ import Helmet from "react-helmet";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Project from "./Project";
-import projects from './projectData';
+import projects from "./projectData";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
@@ -27,7 +27,7 @@ class Projects extends React.Component {
         </Helmet>
         <Row className="justify-content-center">
           <Col className="text-center">
-            <h1>Projects</h1>
+            <h1 className="title">Projects</h1>
             <hr className="brd-white" />
           </Col>
         </Row>

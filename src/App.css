@@ -10,7 +10,7 @@
 
 /* Text */
 .txt-light {
-  color:white;
+  color: white;
 }
 .sm-font {
   font-size: 0.9rem;
@@ -50,8 +50,24 @@
 /* Navbar Styling */
 .nav-bar {
   padding-top: 0;
-  
 }
-.show, .collapsing {
+.show,
+.collapsing {
   border-bottom: solid white 1px;
+}
+
+/* Small Screen Styling */
+@media only screen and (max-width: 576px) {
+  .title {
+    font-size: xx-large;
+  }
+  .proj-title {
+    font-size: x-large;
+  }
+  .proj-txt {
+    text-align: center;
+  }
+  .foot-txt {
+    text-align: center;
+  }
 }
