@@ -36,7 +36,7 @@ class MyNav extends React.Component {
             </p>
             <ul>
               <li>
-                Being a scum master for a team developing consumer delivery
+                Being a scrum master for a team developing consumer delivery
                 related products,
               </li>
               <li>
