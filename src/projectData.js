@@ -6,6 +6,8 @@ import Cats from "./resources/foster-cats-screenshot.jpg";
 import Cipher from "./resources/cipher-screenshot.jpg";
 import ToDontList from "./resources/todontlist-screenshot.JPG";
 import Portfolio from "./resources/portfolio-screenshot.JPG";
+import Weather from "./resources/weather-screenshot.JPG";
+import Books from "./resources/jason-leung-D4YrzSwyIEc-unsplash.jpg";
 
 const projects = [
   {
@@ -14,8 +16,26 @@ const projects = [
     img: Portfolio,
     imgAlt: "Portfolio  screenshot",
     description:
-      "THIS SITE! Designed to demonstrate my web development skills and projects. Built using React.",
+      "This Site! Designed to demonstrate my web development skills and projects. Built using React.",
     repo: "https://github.com/matthewcotton/portfolio-2",
+  },
+  {
+    title: "7-Day Weather Forecast App",
+    link: "https://weather.matthewcotton.dev/",
+    img: Weather,
+    imgAlt: "Weather app screenshot",
+    description:
+      "A 7-day weather application which uses OpenWeatherMap and OpenCage Geocoding data. Built using the React framework.",
+    repo: "https://github.com/matthewcotton/weather-app",
+  },
+  {
+    title: "Book List API",
+    link: "https://book-list-api-mcotton.herokuapp.com/",
+    img: Books,
+    imgAlt: "Image of books - Photo by Jason Leung on Unsplash",
+    description:
+      "An API which is designed to store a list of books and if you have read them or not. Built using Express and hosted by Heroku. Instructions on how to interact with the API can be found in the GitHub Readme file.",
+    repo: "https://github.com/matthewcotton/book-list-api",
   },
   {
     title: "FaceBuck",
