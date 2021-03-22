@@ -2,8 +2,8 @@ import React from "react";
 import Helmet from "react-helmet";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Project from "./Project";
-import projects from "./projectData";
+import Project from "../Components/Project";
+import projects from "../Resources/projectData";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 

@@ -1,14 +1,14 @@
 import React from "react";
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import Container from "react-bootstrap/Container";
-import Nav from "./MyNav";
-import Footer from './MyFooter';
-import Home from './Home';
-import About from './About';
-import Projects from './Projects';
+import Nav from "./Components/MyNav";
+import Footer from './Components/MyFooter';
+import Home from './Pages/Home';
+import About from './Pages/About';
+import Projects from './Pages/Projects';
 import Body from 'react-bootstrap/ModalBody'
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
+import "./App.scss";
 
 class App extends React.Component {
   render() {
@@ -19,9 +19,7 @@ class App extends React.Component {
         <Nav />
         <Container>
           <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
+            <Route exact path="/" render={() => <Home />} />
             <Route path="/about">
               <About />
             </Route>

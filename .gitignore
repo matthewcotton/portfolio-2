@@ -24,3 +24,5 @@ yarn-error.log*
 
 # word doc
 .docx
+
+/designs
