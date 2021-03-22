@@ -2,7 +2,7 @@ import React from "react";
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import { MyFooter as Footer, MyNav as Nav } from "./Components";
-import { Home, Projects, About } from "./Pages";
+import { Home, CV, PageNotFound } from "./Pages";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
@@ -14,17 +14,8 @@ const App = () => {
         <Container>
           <Switch>
             <Route exact path="/" render={() => <Home />} />
-            <Route path="/about">
-              <About />
-            </Route>
-            <Route path="/projects">
-              <Projects />
-            </Route>
-            <Route path="/">
-              <div>
-                <h1>Page not found.</h1>
-              </div>
-            </Route>
+            <Route path="/cv" render={() => <CV />} />
+            <Route path="/" render={() => <PageNotFound />} />
           </Switch>
         </Container>
         <Footer />

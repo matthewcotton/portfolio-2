@@ -9,7 +9,7 @@ export const About = () => {
       <Helmet>
         <title>Matt Cotton - About</title>
       </Helmet>
-      <Row className="justify-content-center">
+      <Row id="about" className="justify-content-center">
         <Col className="text-center">
           <h1 className="title">About Me</h1>
           <hr className="brd-white" />

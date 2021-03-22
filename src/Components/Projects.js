@@ -6,21 +6,22 @@ import projectData from "../Resources/projectData";
 import "../App.css";
 
 export const Projects = () => {
-  const [projects, setProjects] = useState(projectData);
+  const [projects] = useState(projectData);
 
   const renderProjects = () => {
     return projects.projectData.map((project) => (
-      <Project currentProject={project} />
+      <Project key={project.id} currentProject={project} />
     ));
   };
+
   return (
     <>
       <Helmet>
         <title>Matt Cotton - Projects</title>
       </Helmet>
-      <Row className="justify-content-center">
+      <Row id="projects" className="justify-content-center">
         <Col className="text-center">
-          <h1 className="title">Projects</h1>
+          <h1 className="title">Web Projects</h1>
           <hr className="brd-white" />
         </Col>
       </Row>

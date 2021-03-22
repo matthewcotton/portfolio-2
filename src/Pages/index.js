@@ -1,3 +1,3 @@
 export { Home } from "./Home";
-export { Projects } from "./Projects";
-export { About } from "./About";
+export { CV } from "./CV";
+export { PageNotFound } from "./PageNotFound";
