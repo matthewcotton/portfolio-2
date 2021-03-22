@@ -8,7 +8,7 @@ import About from './Pages/About';
 import Projects from './Pages/Projects';
 import Body from 'react-bootstrap/ModalBody'
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.scss";
+import "./App.css";
 
 class App extends React.Component {
   render() {

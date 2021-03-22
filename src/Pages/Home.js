@@ -2,13 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Image from "react-bootstrap/Image";
-import CoverPic from "./resources/profile-pic.jpg";
+import CoverPic from "../Resources/profile-pic.jpg";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Body from "react-bootstrap/ModalBody";
 import Helmet from "react-helmet";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
+import "../App.css";
 
 class Home extends React.Component {
   render() {

@@ -1,13 +1,13 @@
-import FaceBuck from "./resources/facebuck-screenshot.jpg";
-import PubAdventure from "./resources/text-adventure-screenshot.jpg";
-import WhitchurchQuiz from "./resources/whitchurch-quiz-screenshot.jpg";
-import Calculator from "./resources/calculator-screenshot.jpg";
-import Cats from "./resources/foster-cats-screenshot.jpg";
-import Cipher from "./resources/cipher-screenshot.jpg";
-import ToDontList from "./resources/todontlist-screenshot.JPG";
-import Portfolio from "./resources/portfolio-screenshot.JPG";
-import Weather from "./resources/weather-screenshot.JPG";
-import Books from "./resources/jason-leung-D4YrzSwyIEc-unsplash.jpg";
+import FaceBuck from "./ProjectImages/facebuck-screenshot.jpg";
+import PubAdventure from "./ProjectImages/text-adventure-screenshot.jpg";
+import WhitchurchQuiz from "./ProjectImages/whitchurch-quiz-screenshot.jpg";
+import Calculator from "./ProjectImages/calculator-screenshot.jpg";
+import Cats from "./ProjectImages/foster-cats-screenshot.jpg";
+import Cipher from "./ProjectImages/cipher-screenshot.jpg";
+import ToDontList from "./ProjectImages/todontlist-screenshot.JPG";
+import Portfolio from "./ProjectImages/portfolio-screenshot.JPG";
+import Weather from "./ProjectImages/weather-screenshot.JPG";
+import Books from "./ProjectImages/jason-leung-D4YrzSwyIEc-unsplash.jpg";
 
 const projects = [
   {

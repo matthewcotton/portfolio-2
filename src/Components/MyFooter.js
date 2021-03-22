@@ -2,11 +2,11 @@ import React from "react";
 import Image from "react-bootstrap/Image";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import GitLogo from "./resources/github-logo.svg";
-import TwitterLogo from "./resources/twitter-logo.svg";
-import LinkedInLogo from "./resources/linkedin-logo.svg";
+import GitLogo from "../Resources/SocialLogos/github-logo.svg";
+import TwitterLogo from "../Resources/SocialLogos/twitter-logo.svg";
+import LinkedInLogo from "../Resources/SocialLogos/linkedin-logo.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
+import "../App.css";
 
 class MyNav extends React.Component {
   render() {
