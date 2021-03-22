@@ -1,23 +1,24 @@
-import FaceBuck from "./ProjectImages/facebuck-screenshot.jpg";
-import PubAdventure from "./ProjectImages/text-adventure-screenshot.jpg";
-import WhitchurchQuiz from "./ProjectImages/whitchurch-quiz-screenshot.jpg";
-import Calculator from "./ProjectImages/calculator-screenshot.jpg";
-import Cats from "./ProjectImages/foster-cats-screenshot.jpg";
-import Cipher from "./ProjectImages/cipher-screenshot.jpg";
-import ToDontList from "./ProjectImages/todontlist-screenshot.JPG";
-import Portfolio from "./ProjectImages/portfolio-screenshot.JPG";
-import Weather from "./ProjectImages/weather-screenshot.JPG";
-import Books from "./ProjectImages/jason-leung-D4YrzSwyIEc-unsplash.jpg";
+import {
+  FaceBuck,
+  PubAdventure,
+  WhitchurchQuiz,
+  Calculator,
+  Cats,
+  Cipher,
+  ToDontList,
+  Portfolio,
+  Weather,
+  Books,
+} from "./ProjectImages";
 
-const projects = [
+const projectData = [
   {
-    title: "Portfolio",
-    link: "https://www.matthewcotton.dev/#/",
-    img: Portfolio,
-    imgAlt: "Portfolio  screenshot",
-    description:
-      "This Site! Designed to demonstrate my web development skills and projects. Built using React.",
-    repo: "https://github.com/matthewcotton/portfolio-2",
+    title: "FaceBuck",
+    link: "https://facebuck.matthewcotton.dev/#/",
+    img: FaceBuck,
+    imgAlt: "FaceBuck screenshot",
+    description: "A spoof social media site. Built using React.",
+    repo: "https://github.com/matthewcotton/social-site",
   },
   {
     title: "7-Day Weather Forecast App",
@@ -29,6 +30,15 @@ const projects = [
     repo: "https://github.com/matthewcotton/weather-app",
   },
   {
+    title: "Portfolio",
+    link: "https://www.matthewcotton.dev/#/",
+    img: Portfolio,
+    imgAlt: "Portfolio  screenshot",
+    description:
+      "This Site! Designed to demonstrate my web development skills and projects. Built using React.",
+    repo: "https://github.com/matthewcotton/portfolio-2",
+  },
+  {
     title: "Book List API",
     link: "https://book-list-api-mcotton.herokuapp.com/",
     img: Books,
@@ -36,14 +46,6 @@ const projects = [
     description:
       "An API which is designed to store a list of books and if you have read them or not. Built using Express and hosted by Heroku. Instructions on how to interact with the API can be found in the GitHub Readme file.",
     repo: "https://github.com/matthewcotton/book-list-api",
-  },
-  {
-    title: "FaceBuck",
-    link: "https://facebuck.matthewcotton.dev/#/",
-    img: FaceBuck,
-    imgAlt: "FaceBuck screenshot",
-    description: "A spoof social media site. Built using React.",
-    repo: "https://github.com/matthewcotton/social-site",
   },
   {
     title: "React Calculator",
@@ -101,4 +103,4 @@ const projects = [
 ];
 
 // eslint-disable-next-line
-export default { projects };
+export default { projectData };

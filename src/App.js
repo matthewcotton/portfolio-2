@@ -1,21 +1,15 @@
 import React from "react";
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import Container from "react-bootstrap/Container";
-import Nav from "./Components/MyNav";
-import Footer from './Components/MyFooter';
-import Home from './Pages/Home';
-import About from './Pages/About';
-import Projects from './Pages/Projects';
-import Body from 'react-bootstrap/ModalBody'
+import { MyFooter as Footer, MyNav as Nav } from "./Components";
+import { Home, Projects, About } from "./Pages";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
-class App extends React.Component {
-  render() {
-    return (
-      <div> 
-      <Router> 
-        <Body >
+const App = () => {
+  return (
+    <div>
+      <Router>
         <Nav />
         <Container>
           <Switch>
@@ -34,11 +28,9 @@ class App extends React.Component {
           </Switch>
         </Container>
         <Footer />
-        </Body>
       </Router>
-      </div>
-    );
-  }
-}
+    </div>
+  );
+};
 
 export default App;
