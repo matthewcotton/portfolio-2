@@ -6,7 +6,7 @@ import GitLogo from "./resources/github-logo.svg";
 import TwitterLogo from "./resources/twitter-logo.svg";
 import LinkedInLogo from "./resources/linkedin-logo.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
+import "./App.scss";
 
 class MyNav extends React.Component {
   render() {

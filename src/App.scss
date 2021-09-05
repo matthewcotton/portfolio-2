@@ -1,3 +1,23 @@
+@import './sass/_nav';
+@import './sass/settings';
+
+
+body {
+  margin: 0;
+  font-family: $body-font;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: $code-font;
+}
+
+nav {
+  font-family: $nav-font;
+}
+
+
 /* Background Color */
 .bg-dark {
   background-color: #343a40;

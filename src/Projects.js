@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 import Project from "./Project";
 import projects from "./projectData";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
+import "./App.scss";
 
 class Projects extends React.Component {
   constructor(props) {

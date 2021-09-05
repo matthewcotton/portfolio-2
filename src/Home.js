@@ -8,7 +8,7 @@ import Col from "react-bootstrap/Col";
 import Body from "react-bootstrap/ModalBody";
 import Helmet from "react-helmet";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
+import "./App.scss";
 
 class Home extends React.Component {
   render() {
